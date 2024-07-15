@@ -185,6 +185,28 @@ img{
   }
 }
 
+/* footer style  */
+
+footer{
+  background: #0A0826;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  padding:40px 0px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.links{
+  display: flex;
+  gap:20px;
+}
+.links i{
+  color:#fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
 @media screen and (max-width:992px) and (min-width:577px){
   .banner h2{
     font-size: 2rem;
