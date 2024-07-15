@@ -10,6 +10,11 @@ body{
   scroll-behavior: smooth;
 }
 
+.header-wrap{
+  max-width: 1420px;
+  margin:0 auto;
+  padding:0px 30px;
+}
 .wrap{
   max-width: 1420px;
   margin:0 auto;
@@ -97,6 +102,24 @@ img{
 }
 
 
+/* company section  */
+.company-section{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background: #dddddd1f;
+}
+.companys{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:10px 0px ;
+  flex-wrap: wrap;
+  gap:25px;
+}
+.company{
+  flex:1 1 120px;
+  max-width: 200px;
+}
 @media screen and (max-width:576px) {
   .banner-wrap{
     flex-direction: column-reverse;
